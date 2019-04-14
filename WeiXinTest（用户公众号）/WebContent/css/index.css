@@ -1,0 +1,45 @@
+@charset "utf-8"; 
+/* CSS Document */ 
+body, ul, li { 
+margin: 0; 
+padding: 0; 
+} 
+body{ 
+font-size:12px; 
+font-family:sumsun,arial; 
+color:#666666; 
+background:#FFFFFF; 
+} 
+#searchtable{background:#E4E9F2; border-bottom:1px solid #C8CFDA; padding:0px 8px;height: 33px;} 
+#searchtable label{font-size:14px; display:inline-block; float:left; color:#333; text-shadow:1px 1px 0px #EBF5FA; font-weight:bold; padding:10px 0 8px 16px; background:url(../images/pemIcons.png) 2px -34px no-repeat; _background:url(../images/pemIcons.gif) 2px -34px no-repeat;} 
+#searchtable #search{border: 1px solid #C3C3C3; border-top: 1px solid #7C7C7C; border-left: 1px solid #9A9A9A;background: url(../images/today.gif) 0 -162px white repeat-x;outline: none; padding:3px 4px; _padding:3px 4px 5px; display:inline-block; float:left; margin:6px 12px 4px 0; zoom:1;} 
+#searchtable .btnSubmit{margin-top:6px;margin-left:5px; zoom:1; border: 1px solid #236300; background: #6B9F40 url(../images/buttonbg01.png) repeat-x 0 0; font-size:12px; color:#FFF; line-height:24px; height:24px; width:60px; font-weight:bold; display:block; text-align:center; float:left;} 
+#searchtable .btnSubmit:hover{text-decoration:none; background-position:0 -32px;} 
+#searchtable .btnSubmit:active{background-position:0 -64px;} 
+#searchtable .fBtn:hover{color:#000;} 
+table.datagrid { 
+border:1px solid #DDDDDD; 
+border-collapse:collapse; 
+} 
+
+.gover_search{z-index:99;solid #b8cfe6; border-bottom:0; } 
+.gover_search_form{height:36px;} 
+.gover_search .search_t{ float:left; width:112px; line-height:26px; color:#666666;} 
+.gover_search .input_search_key{ float:left; width:462px; height:18px; padding:3px; margin-right:5px; border:1px solid #cccccc; line-height:18px; background:#FFFFFF;} 
+.gover_search .search_btn{ padding-left:4px; width:68px; height:26px; overflow:hidden; border:1px solid #cccccc; text-align:center; color:#ffffff; letter-spacing:5px; background: #6B9F40 url(../images/buttonbg01.png) repeat-x 0 0; cursor:pointer; font-weight:bold;} 
+.gover_search .search_suggest{ position:absolute; z-index:999; left:15px; top:41px; width:210px; border:1px solid #999999; display:none; } 
+.gover_search .search_suggest li{  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 12px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+       -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;} 
+.gover_search .search_suggest li.hover{background:#DDDDDD;} 

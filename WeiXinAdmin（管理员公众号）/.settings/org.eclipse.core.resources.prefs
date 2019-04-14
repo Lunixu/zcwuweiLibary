@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//WebContent/adminlogin.jsp=UTF-8
+encoding//src/wx/wuweiadmin/servlet/BorrowBook.java=UTF-8
+encoding//src/wx/wuweiadmin/servlet/ManageBorrow.java=UTF-8
+encoding//src/wx/wuweiadmin/servlet/ManageReturn.java=UTF-8

@@ -1,0 +1,43 @@
+.container{
+	padding: 0px;
+	margin: 0px;	
+}
+
+.ta{
+	width:100%;
+	overflow:hidden;
+	margin-bottom: 15px;
+	border-collapse: separate;
+    border-radius: 4px;
+    text-align:center;
+}
+		
+.ta td{
+	overflow:hidden;
+}
+
+thead{
+	background: rgba(221, 228, 230, 0.5);
+}
+
+.table-bordered {
+	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
+}
+
+
+.divcss5-td-2,.divcss5-td-3,.divcss5-td-4,.divcss5-td-5,.divcss5-td-5{
+	width: 20%;
+}
+
+.btn{
+	background-color: rgb(231, 76, 60);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8.3px 16px;
+    border-radius: 3px;
+    border:0 !important;
+    background: ;
+    float: right;
+}

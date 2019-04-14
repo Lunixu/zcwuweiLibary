@@ -1,0 +1,47 @@
+.container{
+	padding: 0px;
+	margin: 0px;	
+}
+
+.ta{
+	width:100%;
+	overflow:hidden;
+	margin-bottom: 15px;
+	border-collapse: separate;
+    border-radius: 4px;
+    text-align:center;
+}
+		
+.ta td{
+	overflow:hidden;
+}
+
+thead{
+	background: rgba(221, 228, 230, 0.5);
+}
+
+.table-bordered {
+	border: 1px solid #ddd;
+	border: 1px solid #ddd !important;
+}
+
+.order_th{
+	width:33%;
+}
+
+.divcss3-td-2{
+	text-align:center;
+	width: 33%;
+}
+
+.btn{
+	background-color: rgb(231, 76, 60);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 8.3px 16px;
+    border-radius: 3px;
+    border:0 !important;
+    background: ;
+    float: right;
+}
