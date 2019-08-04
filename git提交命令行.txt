@@ -1,0 +1,6 @@
+cd existing_floder
+git init
+git remote add origin ssh:git@42.123.127.93:10022/Caim/zcwuweilibrary.git
+git add .
+git commit -m '第二次更新'
+git push -u origin master
